@@ -29,7 +29,7 @@
     border-radius: 10px;
     background-color: rgba(255,255,255,0.07);
     transform: translate(-50%,-50%);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(50px);
     border: 1px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 50px 35px;
@@ -89,7 +89,11 @@
 
 .texto p{
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 30px;
+}
+
+#gelo img{
+    width: 350px;
 }
 
 
@@ -127,7 +131,7 @@ width: 260px;
 }
 
 .shape:nth-child(2){
-    right: 0px;
+    right: 35px;
     bottom: 210px;
 }
 
